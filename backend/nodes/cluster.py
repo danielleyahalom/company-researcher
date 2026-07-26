@@ -8,8 +8,7 @@ from ..classes import ResearchState,DocumentClusters
 class ClusterNode:
     def __init__(self):
         self.model = ChatAnthropic(
-            model="claude-3-5-haiku-20241022",
-            temperature=0
+            model="claude-haiku-4-5-20251001"
         )
 
     async def cluster(self, state: ResearchState):

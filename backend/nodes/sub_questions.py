@@ -5,8 +5,7 @@ from ..classes import ResearchState, TavilySearchInput
 class SubQuestionsNode:
     def __init__(self) -> None:
         self.model = ChatAnthropic(
-            model="claude-3-5-haiku-20241022",
-            temperature=0
+            model="claude-haiku-4-5-20251001"
         )
      
     # Function to generate sub-questions based on initial search data
