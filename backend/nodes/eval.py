@@ -6,8 +6,7 @@ from langchain_anthropic import ChatAnthropic
 class EvaluationNode:
     def __init__(self):
         self.model = ChatAnthropic(
-            model="claude-3-5-haiku-20241022",
-            temperature=0
+            model="claude-sonnet-5"
         )
 
     # Evaluation function assigns an overall grade from 1 to 3.
