@@ -72,7 +72,7 @@ class GenerateNode:
 
         6. ### Citations
             - List each unique domain referenced in the report exactly once — if multiple articles from the same domain were used, list that domain only once, not once per article.
-            - Format each entry as a Markdown hyperlink whose link text is just the domain name (e.g., [sunbit.com](https://sunbit.com)), not the article title.
+            - Format each entry as a Markdown hyperlink whose link text is just the domain name (e.g., [tavily.com](https://www.tavily.com/)), not the article title.
 
         ### Documents to Base the Report On:
         {state['documents']}
